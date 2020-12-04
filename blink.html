@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            BLINK
+        </title>
+        <script>
+           function blink()
+
+        {
+            let body = document.querySelector('body');
+            if (body.style.visibility ==='hidden')
+            {
+                body.style.visibility='visible';
+            }
+            else 
+            {
+                body.style.visibility='hidden';
+            }
+
+        }
+        window.setInterval(blink,750)
+        </script>
+    </head>
+    <body style="color: blueviolet; background-color:blanchedalmond; font-size: x-large;">
+        THIS IS GONNA BLINK!!
+
+    </body>
+</html>
