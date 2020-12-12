@@ -1,0 +1,127 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(0, 0, 0));
+
+}
+
+#head{
+    text-align: center;
+    color: azure;
+    font-size: 40px;
+    padding: 30px;
+    border-radius: 4px;
+    border-style:double;
+    border-color: blue;
+}
+.img{
+border-radius:8px;
+width: 50%;
+height: 450px;
+
+}
+.border {
+float: none;
+
+color:white;
+text-align: center;
+box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+border: 5px solid transparent; 
+border-image: conic-gradient(red, aqua, blue, magenta, red) ; 
+border-image-slice: 1;
+border-radius:5px;
+float: center; 
+padding: 50px;
+background-color:#222;
+}
+button.button {
+border-radius: 4px;
+background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(101deg, #78e4ff, #ff48fa); 
+box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+border:5px solid transparent;
+margin: 25px;
+
+color:#fff;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+background-origin: border-box;
+background-clip: content-box, border-box;
+box-shadow: 2px 1000px 1px rgb(0, 0, 0) inset;
+font-size: 16px;}
+.tooltip {
+position: relative;
+display: inline-block;
+border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 150px;
+background-color:  rgb(139, 20, 250);
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+position: absolute;
+z-index: 1;
+bottom: 100%;
+left: 45%;
+margin-left: -60px;
+opacity: 0;
+transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+content: "";
+position: absolute;
+top: 100%;
+left: 50%;
+margin-left: -5px;
+border-width: 5px;
+border-style: solid;
+border-color: rgb(139, 20, 250) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+opacity: 1;
+}
+
+
+button.button:hover {
+box-shadow: none;
+color: black;
+cursor: pointer;
+}
+.welcome{
+    position: absolute;
+    bottom:20px;
+    font-size: 60px;
+    color: rgb(241, 0, 201);
+    padding-left: 220px;
+    padding-right:350px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    background-color: rgba(0, 0, 0, 0.651) ;
+    align-content: center;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px #51dcf5;
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
+    
+}
+#text{
+    background-color: black;
+    padding-left:150px;
+    padding-right:150px;
+}
+#views{
+    color: beige;
+    float:right;
+    font-style: inherit;
+    font-size:25px;
+    padding-right: 70px;
+    padding-top:125px;
+}   
+
+
