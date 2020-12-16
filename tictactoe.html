@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #border{
+            margin: 30px;
+            border:1px solid;
+            background-image: linear-gradient(to bottom right, red, yellow);
+            padding-bottom:initial;
+            border-radius: 4px;
+            box-shadow:1px 1px 10px rgb(250, 231, 167) ;
+        }
+        #button{
+            padding: 12px 35px 12px 35px;
+            border-radius: 4px;
+            border:1px solid;
+            cursor: pointer;
+            background-color:rgb(255, 208, 0)
+
+
+
+        }
+        #button:hover {
+  background-color: #ffb46d; /* Green */
+  color:red ;
+}
+
+input[type=text] {
+  width: 250px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+
+
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 35%;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tictactoe</title>
+
+</head>
+<body style="margin: 10px; background-color: black;">
+
+    <h1 style="margin-top: 10px;text-align: center;color: ivory;" >TIC TAC TOE game!</h1><hr>
+    <div id="border">
+        <h2 style="text-align: center;">Let's see if you can beat our BOT!</h2><br><br>
+        <form>
+            <p style="text-align: center;font-size: 20px;">Name: <input type="text" required placeholder="your name.."
+                 ></p><br>
+            <div style="text-align: center; padding-bottom: 30px;font-size: 20px;">
+
+            <fieldset>
+            <legend>Choose your level</legend>
+             Beginner<input type="radio" id="level" name="beginner" value="level" >
+
+             Intermediate<input type="radio" id="level" name="beginner" value="level">
+            </fieldset>
+            <br><br>
+
+            <button id="button"><b>Play!</b></button>
+            </div>
+
+
+        </form>
+
+
+    </div>
+
+    <div>
+        <p style="color:rgb(142, 22, 211); font-size:15px ;text-shadow: 2px 2px 4px ;font-style: oblique;">
+            Developed by:<span style="color :aqua; font-size: 25px;">Sarfaraj & Nadeem </span></p>
+
+    </div>
+</body>
+</html>
