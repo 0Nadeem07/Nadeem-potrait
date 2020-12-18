@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #border{
+            margin: 30px;
+            border:1px solid;
+            
+            padding-bottom:initial;
+            border-radius: 4px;
+            box-shadow:1px 1px 10px rgb(250, 231, 167) ;
+            height: 400px;
+            background-image: url('https://i.pinimg.com/originals/1b/4c/27/1b4c27fd5b5f69c78172e1ce5f509329.gif');
+        background-size: cover;
+        background-repeat:none;
+        margin-bottom: 50px;
+        display: none;
+        }
+
+        #border1{
+            margin: 30px;
+            border:1px solid;
+            background-color: black;
+            padding-bottom:initial;
+            border-radius: 4px;
+            box-shadow:1px 1px 10px rgb(250, 231, 167) ;
+            height: 400px;
+            background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/blood-red-wolf-supermoon-eclipse-873l-ricardos-creations.jpg');
+            background-size: cover;
+            background-repeat:none;
+            margin-bottom: 50px;
+            display:flow-root;
+        }
+        #button{
+            padding: 12px 35px 12px 35px;
+            border-radius: 4px;
+            border:1px solid;
+            cursor: pointer;
+            background-color:rgb(255, 208, 0)
+
+
+
+        }
+        #button:hover {
+  background-color: #ffb46d; /* Green */
+  color:red ;
+}
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tictactoe</title>
+
+</head>
+<body style="margin: 10px;background-color: black;">
+    
+    
+    
+    <h1 style="margin-top: 10px;text-align: center;color: ivory;" >TIC TAC TOE game!</h1><hr><br><br>
+    
+    <div id="border">
+        <div>
+        <h1 style="margin-top:50px;text-align: center;color: ivory;  padding-bottom: 350px;">
+            "YAY!!  {{name}} , <br>You beated our BOT!</h1>
+        </div>
+    </div><br>
+
+    <div id="border1">
+        <div>
+        <h1 style="text-align: center;color: ivory;text-align: center;margin-top:75px ;margin-bottom: 190px;">
+            OOPS  {{name}} , <br>You were beated by our BOT!</h1>
+            <p style="color: ivory;text-align: center; padding: 15px; background-color: rgba(128, 128, 128, 0.068);">Giving Up is just an another word for surrendering</p>
+        </div>
+    </div><br>
+
+    <div style="text-align: center;">
+    <form >
+               
+        <input id="button" type="submit" style="margin-right: 10px; " value="play again"><b></b>
+    
+        
+        <input id="button" type="submit" style="margin-left: 10px;" value="quit game"><b></b>
+    </form>
+    </div><br><br>
+    <audio controls>
+        <source src="https://sarfaraj2002.github.io/stories/win.mp3">
+        
+      Your browser does not support the audio element.
+      </audio>
+
+    <footer>
+        <p style="color:rgb(142, 22, 211); font-size:10px ;text-shadow: 2px 2px 4px ;font-style: oblique;">
+            Developed by:<span style="color :aqua; font-size: 20px;">Sarfaraj & Nadeem </span></p>
+
+    </footer>
+    
+</body>
+</html>
